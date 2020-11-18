@@ -5,4 +5,6 @@ a Windows-based application which can be used for controlling mouse with hand ge
 
 Python Modules used: OpenCV , Numpy, Pynput, WX
 
-The code continuously streams video from the webcam and takes the frames of the video (at a gap of 2 millisecond). Initially the noises which are present in frames collected from web cam are minimized. Then the frame which is collected in RGB format is converted to HSV format (which is basically intended for effective background subtraction) . Hand in frame collected is recognized by using global HSV value range for skin color. By using few functions we have detected hand motion and static gestures made by the user 
+The code continuously streams video from the webcam and takes the frames of the video (at a gap of 2 millisecond). Initially the noises which are present in frames collected from web cam are minimized. Then the frame which is collected in RGB format is converted to HSV format (which is basically intended for effective background subtraction) . Hand in frame collected is recognized by using global HSV value range for skin color. By using few functions we have detected hand motion and static gestures made by the user.
+
+Video Link ---https://www.linkedin.com/posts/satyaki-sen-912769185_opencv-python-activity-6685242426350809088-d6RB
